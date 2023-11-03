@@ -8,3 +8,4 @@ router.get("/:userId", userController.getUserById);
 router.post("/", userController.createUser);
 router.delete("/:userId", userController.deleteUserById);
 router.patch("/:userId", userController.updateUserByAuth);
+router.patch("/:userId", userController.updateUserByAuth);
